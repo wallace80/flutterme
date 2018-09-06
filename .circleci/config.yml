@@ -10,4 +10,4 @@ jobs:
       - run: flutter doctor
       - run: flutter packages get
       - run: flutter test
-      - run: flutter -v build apk
+      - run: flutter build -v apk -t lib/main_dev.dart

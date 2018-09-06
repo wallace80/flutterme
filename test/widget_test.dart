@@ -12,6 +12,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'package:flutter_presentation/main.dart';
 import 'package:redux/redux.dart';
+import 'package:flutter_presentation/app_config.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
