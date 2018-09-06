@@ -10,9 +10,13 @@ jobs:
       - run: flutter doctor
       - run: flutter packages get
   test:
+    docker:
+      - image: cirrusci/flutter
     steps:
       - run: flutter test
   build:
+    docker:
+      - image: cirrusci/flutter
     steps:
       - run: flutter build -v apk -t lib/main_dev.dart
       - run: mv build/app/outputs/apk/release/app-release.apk build/app/outputs/apk/release/flutterme_dev.apk
