@@ -5,6 +5,8 @@ jobs:
       - image: cirrusci/flutter
     steps:
       - checkout
+      - run: flutter upgrade
       - run: flutter doctor
+      - run: flutter packages get
       - run: flutter test
       - run: flutter -v build apk
