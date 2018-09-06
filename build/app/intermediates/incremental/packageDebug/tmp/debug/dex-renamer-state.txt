@@ -1,0 +1,4 @@
+#Wed Sep 05 13:41:39 CEST 2018
+base.0=/Users/q459787/Projects/flutter_presentation/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

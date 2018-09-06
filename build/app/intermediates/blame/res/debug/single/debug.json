@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/q459787/Projects/flutter_presentation/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/q459787/Projects/flutter_presentation/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/q459787/Projects/flutter_presentation/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/q459787/Projects/flutter_presentation/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/q459787/Projects/flutter_presentation/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/q459787/Projects/flutter_presentation/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/q459787/Projects/flutter_presentation/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/q459787/Projects/flutter_presentation/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/q459787/Projects/flutter_presentation/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/q459787/Projects/flutter_presentation/android/app/src/main/res/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Users/q459787/Projects/flutter_presentation/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/q459787/Projects/flutter_presentation/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
