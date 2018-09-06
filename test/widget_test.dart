@@ -20,9 +20,15 @@ void main() {
         initialState:
             new AppState(text1: 'Initial State', isLoading: false, error: null),
         middleware: [AppStateMiddleware('https://dev-api.auer.biz/')]);
-    await tester.pumpWidget(new MyApp(
+        var configuredApp = new AppConfig(
+    appName: 'Flutter Presentation INT',
+    flavorName: 'integration',
+    apiBaseUrl: 'https://int-api.auer.biz/',
+    child: new MyApp(
       store: store,
-    ));
+    ),
+  );
+    await tester.pumpWidget(configuredApp);
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
