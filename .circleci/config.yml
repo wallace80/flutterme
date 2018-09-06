@@ -11,3 +11,8 @@ jobs:
       - run: flutter packages get
       - run: flutter test
       - run: flutter build -v apk -t lib/main_dev.dart
+      - run: mv build/app/outputs/apk/release/app-release.apk build/app/outputs/apk/release/flutterme_dev.apk
+      - run: flutter build -v apk -t lib/main_int.dart
+      - run: mv build/app/outputs/apk/release/app-release.apk build/app/outputs/apk/release/flutterme_int.apk
+      - run: flutter build -v apk -t lib/main_prod.dart
+      - run: mv build/app/outputs/apk/release/app-release.apk build/app/outputs/apk/release/flutterme.apk
